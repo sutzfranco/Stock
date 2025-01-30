@@ -1,0 +1,11 @@
+.row>* {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

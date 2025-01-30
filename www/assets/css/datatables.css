@@ -1,0 +1,65 @@
+    /* Tus estilos CSS personalizados */
+    .dataTables_paginate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .special-select.select2-container .select2-selection--single {
+        height: 38px;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        padding: 6px 12px;
+        display: flex;
+        align-items: center;
+    }
+
+    .special-select .select2-selection__arrow {
+        height: 38px;
+        top: 1px;
+    }
+
+    #filterOptions {
+        margin-right: 10px;
+    }
+
+    #searchBox {
+        height: 38px;
+    }
+
+    .search-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    #search-input {
+        margin-right: 10px;
+        margin-left: 200px;
+    }
+
+    .print-buttons {
+        margin-top: 10px;
+    }
+    .dataTables_paginate .paginate_button {
+        padding: 5px 10px;
+        margin: 0 2px;
+    }
+
+
+
+    /* Ajustar el estilo de los botones de paginación */
+    .dataTables_paginate a {
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 6px 12px;
+        color: #007bff;
+    }
+
+    .dataTables_paginate a:hover {
+        background-color: #007bff;
+        color: white;
+    }
+    

@@ -1,0 +1,213 @@
+/*
+Custom Css
+*/
+.carousel-image {
+  width: 560px;
+  height: 350px;
+  object-fit: cover;
+}
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounded-circle {
+  object-fit: cover;
+  width: 200px; /* Ajusta este valor según el tamaño deseado */
+  height: 200px; /* Ajusta este valor según el tamaño deseado */
+}
+
+.highlighted-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.description-font {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 1.1em; /* Ajusta según tus necesidades */
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none; /* Evita el borde negro al hacer clic */
+}
+
+.scroll-to-top i {
+  line-height: 50px;
+}
+
+/* Asegúrate de que el botón no muestre el borde de enfoque */
+.scroll-to-top:focus {
+  outline: none;
+  box-shadow: none; /* Quita cualquier sombra adicional que pueda aparecer */
+}
+/* Asegura que todas las imágenes de las tarjetas tengan el mismo tamaño */
+.card-img-top {
+  width: 100%;
+  height: 300px; /* Ajusta la altura de la imagen */
+  object-fit: cover; /* Cubre el contenedor manteniendo las proporciones */
+  background-color: #f8f9fa; /* Color de fondo para las imágenes que no tienen suficiente contenido */
+}
+
+/* Estiliza la tarjeta para que todas tengan el mismo tamaño */
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Asegura que el contenido de la tarjeta se expanda para llenar el espacio disponible */
+.card-body {
+  flex: 1;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+/*
+.remito_container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000;
+}*/
+.remito_container {
+  width: 210mm;
+  max-height: 297mm; /* Ajuste máximo para evitar problemas de desbordamiento */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+
+.header-left {
+  width: 60%;
+}
+
+.header-left h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.header-left p {
+  margin: 5px 0;
+}
+
+.header-right {
+  width: 35%;
+  text-align: right;
+}
+
+.header-right h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.info-table,
+.details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.info-table td,
+.details-table td {
+  border: 1px dotted #000;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.details-table td {
+  height: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  border-top: 2px solid #000;
+  padding-top: 10px;
+}
+
+.footer-left,
+.footer-right {
+  width: 45%;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px dotted #000;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: transparent;
+  height: 39px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+}
+
+textarea {
+  height: 30px;
+}
+.btn-success {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-success:active {
+  background-color: #1e7e34;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+td,
+th {
+  white-space: normal;
+  overflow: hidden;
+}
